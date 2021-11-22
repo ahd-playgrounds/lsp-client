@@ -1,0 +1,12 @@
+{
+  "name": "lsp-client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Adam Hall",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^2.4.1",
+    "rpc-stream": "^2.1.2",
+    "vscode-jsonrpc": "^6.0.0"
+  }
+}

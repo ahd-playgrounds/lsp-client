@@ -1,0 +1,179 @@
+Info 0    [07:19:37.369] Starting TS Server
+Info 1    [07:19:37.371] Version: 4.2.2
+Info 2    [07:19:37.371] Arguments: /Users/adh23/.volta/tools/image/node/14.17.2/bin/node /Users/adh23/dev/pomo/node_modules/.bin/tsserver --logFile /Users/adh23/dev/lsp-client/ts-logs.txt --logVerbosity info --cancellationPipeName /private/var/folders/_9/qxc6txkj3f73w87ly0bwpfb40000gn/T/b49a2cdc6e40addb97d3f9acdcfba476/tscancellation*
+Info 3    [07:19:37.371] Platform: darwin NodeVersion: 14 CaseSensitive: false
+Info 4    [07:19:37.371] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [07:19:37.389] Format host information updated
+Info 6    [07:19:39.971] Search path: /Users/adh23/dev/pomo/client
+Info 7    [07:19:39.972] For info: /Users/adh23/dev/pomo/client/App.tsx :: Config file name: /Users/adh23/dev/pomo/tsconfig.json
+Info 8    [07:19:39.972] Opened configuration file /Users/adh23/dev/pomo/tsconfig.json
+Info 9    [07:19:40.024] Config: /Users/adh23/dev/pomo/tsconfig.json : {
+ "rootNames": [
+  "/Users/adh23/dev/pomo/tooling/setupTests.ts",
+  "/Users/adh23/dev/pomo/client/App.tsx",
+  "/Users/adh23/dev/pomo/client/index.tsx",
+  "/Users/adh23/dev/pomo/client/components/Box.tsx",
+  "/Users/adh23/dev/pomo/client/components/Checkbox.tsx",
+  "/Users/adh23/dev/pomo/client/components/LineBreak.tsx",
+  "/Users/adh23/dev/pomo/client/components/MenuButton.tsx",
+  "/Users/adh23/dev/pomo/client/components/Page.tsx",
+  "/Users/adh23/dev/pomo/client/components/Pomodoro.tsx",
+  "/Users/adh23/dev/pomo/client/components/ScrollBar.tsx",
+  "/Users/adh23/dev/pomo/client/components/TimerProgress.tsx",
+  "/Users/adh23/dev/pomo/client/components/index.ts",
+  "/Users/adh23/dev/pomo/client/components/ErrorBoundary/ErrorBoundary.spec.tsx",
+  "/Users/adh23/dev/pomo/client/components/ErrorBoundary/ErrorBoundary.tsx",
+  "/Users/adh23/dev/pomo/client/components/Icons/EyeClosed.tsx",
+  "/Users/adh23/dev/pomo/client/components/Icons/EyeOpen.tsx",
+  "/Users/adh23/dev/pomo/client/components/Icons/Gear.tsx",
+  "/Users/adh23/dev/pomo/client/components/Icons/index.ts",
+  "/Users/adh23/dev/pomo/client/components/Icons/useIcon.ts",
+  "/Users/adh23/dev/pomo/client/components/Inspector/Inspector.spec.tsx",
+  "/Users/adh23/dev/pomo/client/components/Inspector/Inspector.tsx",
+  "/Users/adh23/dev/pomo/client/components/Inspector/index.ts",
+  "/Users/adh23/dev/pomo/client/components/PageManager/PageManager.spec.tsx",
+  "/Users/adh23/dev/pomo/client/components/PageManager/PageManager.tsx",
+  "/Users/adh23/dev/pomo/client/components/Settings/Form.tsx",
+  "/Users/adh23/dev/pomo/client/components/Settings/Setting.tsx",
+  "/Users/adh23/dev/pomo/client/components/Settings/Settings.tsx",
+  "/Users/adh23/dev/pomo/client/components/Settings/Slack.tsx",
+  "/Users/adh23/dev/pomo/client/components/Settings/Timer.tsx",
+  "/Users/adh23/dev/pomo/client/components/testWrap/testComp.spec.tsx",
+  "/Users/adh23/dev/pomo/client/components/testWrap/testComp.tsx",
+  "/Users/adh23/dev/pomo/client/contexts/bridge.tsx",
+  "/Users/adh23/dev/pomo/client/contexts/config.tsx",
+  "/Users/adh23/dev/pomo/client/contexts/index.ts",
+  "/Users/adh23/dev/pomo/client/machines/utils.ts",
+  "/Users/adh23/dev/pomo/client/machines/timer/pomodoroMachine.ts",
+  "/Users/adh23/dev/pomo/client/machines/timer/pomodoroModel.ts",
+  "/Users/adh23/dev/pomo/client/machines/timer/timerMachine.ts",
+  "/Users/adh23/dev/pomo/client/machines/timer/timerModel.ts",
+  "/Users/adh23/dev/pomo/client/styles/GlobalStyle.ts",
+  "/Users/adh23/dev/pomo/client/styles/styled.d.ts",
+  "/Users/adh23/dev/pomo/client/styles/theme.ts",
+  "/Users/adh23/dev/pomo/client/tests/app.spec.tsx",
+  "/Users/adh23/dev/pomo/client/tests/config.spec.tsx",
+  "/Users/adh23/dev/pomo/client/tests/settings.spec.tsx",
+  "/Users/adh23/dev/pomo/client/tests/timer.spec.tsx",
+  "/Users/adh23/dev/pomo/electron/electron.ts",
+  "/Users/adh23/dev/pomo/electron/main.ts",
+  "/Users/adh23/dev/pomo/electron/__mocks__/electron-devtools-installer.ts",
+  "/Users/adh23/dev/pomo/electron/__mocks__/electron-updater.ts",
+  "/Users/adh23/dev/pomo/electron/__mocks__/electron.ts",
+  "/Users/adh23/dev/pomo/electron/ipc/bridgeCreator.ts",
+  "/Users/adh23/dev/pomo/electron/ipc/createFakeBridge.ts",
+  "/Users/adh23/dev/pomo/electron/ipc/handlerMethods.ts",
+  "/Users/adh23/dev/pomo/electron/ipc/handlers.ts",
+  "/Users/adh23/dev/pomo/electron/ipc/index.ts",
+  "/Users/adh23/dev/pomo/electron/ipc/setupIpcHandlers.ts",
+  "/Users/adh23/dev/pomo/electron/repositories/index.ts",
+  "/Users/adh23/dev/pomo/electron/repositories/menuBar/index.ts",
+  "/Users/adh23/dev/pomo/electron/repositories/shell/fakeShell.ts",
+  "/Users/adh23/dev/pomo/electron/repositories/shell/index.ts",
+  "/Users/adh23/dev/pomo/electron/repositories/shell/shell.spec.ts",
+  "/Users/adh23/dev/pomo/electron/repositories/shell/shell.ts",
+  "/Users/adh23/dev/pomo/electron/repositories/slack/index.ts",
+  "/Users/adh23/dev/pomo/electron/repositories/slack/slack.ts",
+  "/Users/adh23/dev/pomo/electron/repositories/store/fakeStore.spec.ts",
+  "/Users/adh23/dev/pomo/electron/repositories/store/fakeStore.ts",
+  "/Users/adh23/dev/pomo/electron/repositories/store/getKeyPathsAndValues.spec.ts",
+  "/Users/adh23/dev/pomo/electron/repositories/store/getKeyPathsAndValues.ts",
+  "/Users/adh23/dev/pomo/electron/repositories/store/index.ts",
+  "/Users/adh23/dev/pomo/electron/repositories/store/store.spec.ts",
+  "/Users/adh23/dev/pomo/electron/repositories/store/store.ts",
+  "/Users/adh23/dev/pomo/electron/services/index.ts",
+  "/Users/adh23/dev/pomo/electron/services/devTools/devTools.spec.ts",
+  "/Users/adh23/dev/pomo/electron/services/devTools/devTools.ts",
+  "/Users/adh23/dev/pomo/electron/services/devTools/index.ts",
+  "/Users/adh23/dev/pomo/electron/services/logger/createLogger.spec.ts",
+  "/Users/adh23/dev/pomo/electron/services/logger/createLogger.ts",
+  "/Users/adh23/dev/pomo/electron/services/logger/errorHandler.spec.ts",
+  "/Users/adh23/dev/pomo/electron/services/logger/errorHandler.ts",
+  "/Users/adh23/dev/pomo/electron/services/logger/index.ts",
+  "/Users/adh23/dev/pomo/electron/services/updater/index.ts",
+  "/Users/adh23/dev/pomo/electron/services/updater/updater.spec.ts",
+  "/Users/adh23/dev/pomo/electron/services/updater/updater.ts",
+  "/Users/adh23/dev/pomo/shared/Option.ts",
+  "/Users/adh23/dev/pomo/shared/Result.spec.ts",
+  "/Users/adh23/dev/pomo/shared/Result.ts",
+  "/Users/adh23/dev/pomo/shared/asserts.spec.ts",
+  "/Users/adh23/dev/pomo/shared/asserts.ts",
+  "/Users/adh23/dev/pomo/shared/constants.spec.ts",
+  "/Users/adh23/dev/pomo/shared/constants.ts",
+  "/Users/adh23/dev/pomo/shared/merge.ts",
+  "/Users/adh23/dev/pomo/shared/pick.spec.ts",
+  "/Users/adh23/dev/pomo/shared/pick.ts",
+  "/Users/adh23/dev/pomo/shared/testids.ts",
+  "/Users/adh23/dev/pomo/shared/types.ts",
+  "/Users/adh23/dev/pomo/testHelpers/FakeIpc.spec.ts",
+  "/Users/adh23/dev/pomo/testHelpers/FakeIpcMain.ts",
+  "/Users/adh23/dev/pomo/testHelpers/FakeIpcRenderer.ts",
+  "/Users/adh23/dev/pomo/testHelpers/ForceError.tsx",
+  "/Users/adh23/dev/pomo/testHelpers/bridge.ts",
+  "/Users/adh23/dev/pomo/testHelpers/createMockFn.ts",
+  "/Users/adh23/dev/pomo/testHelpers/jest.setup.ts",
+  "/Users/adh23/dev/pomo/testHelpers/rtl.tsx",
+  "/Users/adh23/dev/pomo/testHelpers/tick.ts",
+  "/Users/adh23/dev/pomo/testHelpers/fixtures/github.ts",
+  "/Users/adh23/dev/pomo/e2e/stubbed/init.ts",
+  "/Users/adh23/dev/pomo/e2e/stubbed/integration.spec.ts"
+ ],
+ "options": {
+  "strict": true,
+  "forceConsistentCasingInFileNames": true,
+  "noFallthroughCasesInSwitch": true,
+  "noUnusedLocals": false,
+  "noUnusedParameters": false,
+  "noImplicitReturns": true,
+  "esModuleInterop": true,
+  "allowUnreachableCode": false,
+  "allowUnusedLabels": false,
+  "skipLibCheck": true,
+  "strictPropertyInitialization": true,
+  "resolveJsonModule": true,
+  "baseUrl": "/Users/adh23/dev/pomo",
+  "types": [
+   "jest"
+  ],
+  "paths": {
+   "@shared/*": [
+    "shared/*"
+   ],
+   "@electron/*": [
+    "electron/*"
+   ],
+   "@client/*": [
+    "client/*"
+   ],
+   "@test/*": [
+    "testHelpers/*"
+   ]
+  },
+  "jsx": 2,
+  "pathsBasePath": "/Users/adh23/dev/pomo",
+  "configFilePath": "/Users/adh23/dev/pomo/tsconfig.json"
+ }
+}
+Info 10   [07:19:40.053] Starting updateGraphWorker: Project: /Users/adh23/dev/pomo/tsconfig.json
+Info 11   [07:19:42.822] Finishing updateGraphWorker: Project: /Users/adh23/dev/pomo/tsconfig.json Version: 1 structureChanged: true Elapsed: 2768.630605995655ms
+Info 12   [07:19:42.822] Project '/Users/adh23/dev/pomo/tsconfig.json' (Configured)
+Info 13   [07:19:42.822] 	Files (474)
+
+Info 14   [07:19:42.822] -----------------------------------------------
+Info 15   [07:19:42.839] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 16   [07:19:42.977] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true Elapsed: 137.77942794561386ms
+Info 17   [07:19:42.977] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 18   [07:19:42.977] 	Files (55)
+
+Info 19   [07:19:42.977] -----------------------------------------------
+Info 20   [07:19:42.990] getCompletionData: Get current token: 0.03764897584915161
+Info 21   [07:19:42.990] getCompletionData: Is inside comment: 0.029601991176605225
+Info 22   [07:19:42.990] getCompletionData: Get previous token 1: 0.027206003665924072
+Info 23   [07:19:42.990] getCompletionsAtPosition: isCompletionListBlocker: 0.37330204248428345
+Info 24   [07:19:42.994] getSymbolsFromOtherSourceFileExports: Recomputing list
+Info 25   [07:19:43.050] forEachExternalModuleToImportFrom: filtered out 156 modules by package.json contents
+Info 26   [07:19:43.052] forEachExternalModuleToImportFrom: filtered out 44 modules by package.json contents
+Info 27   [07:19:43.052] forEachExternalModuleToImportFrom autoImportProvider: 2.215479016304016
+Info 28   [07:19:43.052] getSymbolsFromOtherSourceFileExports: 58.0375480055809
+Info 29   [07:19:43.064] getCompletionData: Semantic work: 73.65050995349884
+Info 30   [07:19:43.104] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 39.59522902965546
